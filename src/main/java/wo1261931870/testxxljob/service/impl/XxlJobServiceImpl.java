@@ -9,7 +9,6 @@ import wo1261931870.testxxljob.core.scheduler.MisfireStrategyEnum;
 import wo1261931870.testxxljob.core.scheduler.ScheduleTypeEnum;
 import wo1261931870.testxxljob.core.thread.JobScheduleHelper;
 import wo1261931870.testxxljob.core.util.I18nUtil;
-import com.xxl.job.admin.dao.*;
 import wo1261931870.testxxljob.dao.*;
 import wo1261931870.testxxljob.service.XxlJobService;
 import com.xxl.job.core.biz.model.ReturnT;

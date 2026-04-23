@@ -2,13 +2,12 @@ package wo1261931870.testxxljob.core.conf;
 
 import wo1261931870.testxxljob.core.alarm.JobAlarmer;
 import wo1261931870.testxxljob.core.scheduler.XxlJobScheduler;
-import com.xxl.job.admin.dao.*;
+import wo1261931870.testxxljob.dao.*;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Component;
-import wo1261931870.testxxljob.dao.*;
 
 import jakarta.annotation.Resource;
 import javax.sql.DataSource;

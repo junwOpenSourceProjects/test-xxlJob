@@ -1,7 +1,6 @@
 package wo1261931870.testxxljob.core.scheduler;
 
 import wo1261931870.testxxljob.core.conf.XxlJobAdminConfig;
-import com.xxl.job.admin.core.thread.*;
 import wo1261931870.testxxljob.core.thread.*;
 import wo1261931870.testxxljob.core.util.I18nUtil;
 import com.xxl.job.core.biz.ExecutorBiz;
@@ -43,9 +42,8 @@ public class XxlJobScheduler  {
         // start-schedule  ( depend on JobTriggerPoolHelper )
         JobScheduleHelper.getInstance().start();
 
-        logger.info(">>>>>>>>> init xxl-job admin success.");
+        logger.info(">>>>>>>>>>> init xxl-job admin success.");
     }
-
     
     public void destroy() throws Exception {
 

@@ -1,8 +1,7 @@
 package wo1261931870.testxxljob.core.route;
 
-import com.xxl.job.admin.core.route.strategy.*;
-import wo1261931870.testxxljob.core.util.I18nUtil;
 import wo1261931870.testxxljob.core.route.strategy.*;
+import wo1261931870.testxxljob.core.util.I18nUtil;
 
 /**
  * Created by xuxueli on 17/3/10.

@@ -7,6 +7,8 @@ import wo1261931870.testxxljob.core.model.XxlJobInfo;
 import wo1261931870.testxxljob.core.model.XxlJobLog;
 import wo1261931870.testxxljob.core.util.I18nUtil;
 import com.xxl.job.core.biz.model.ReturnT;
+import jakarta.mail.internet.MimeMessage;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
