@@ -2,6 +2,12 @@ package wo1261931870.testxxljob.core.model;
 
 import java.util.Date;
 
+/**
+ * 任务日志报表
+ * 用于存储每日任务执行的汇总统计数据
+ *
+ * @author xuxueli 2017-06-27 18:00:00
+ */
 public class XxlJobLogReport {
 
     private int id;
